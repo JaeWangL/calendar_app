@@ -1,0 +1,53 @@
+{
+  "name": "calendar_app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "lint": "expo lint",
+    "build:ios:sim": "eas build --profile development --platform ios --local",
+    "build:ios:dev": "eas build --profile development:device --platform ios --local",
+    "build:ios:prod": "eas build --profile production --platform ios --local",
+    "build:android:sim": "eas build --profile development --platform android --local",
+    "build:android:dev": "eas build --profile development:device --platform android --local",
+    "build:android:prod": "eas build --profile production --platform android --local"
+  },
+  "dependencies": {
+    "@expo-google-fonts/noto-sans-kr": "^0.2.3",
+    "expo": "~52.0.23",
+    "expo-app-loading": "^2.1.1",
+    "expo-constants": "~17.0.3",
+    "expo-font": "~13.0.2",
+    "expo-linking": "~7.0.3",
+    "expo-router": "~4.0.15",
+    "expo-status-bar": "~2.0.0",
+    "jotai": "^2.11.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-calendars": "^1.1307.0",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-keyboard-controller": "^1.15.2",
+    "react-native-mmkv": "^3.2.0",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-ui-lib": "^7.34.6",
+    "expo-system-ui": "~4.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-native": "^4.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
